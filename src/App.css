@@ -1,0 +1,59 @@
+.side {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 13%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidemenu{
+  background-color: white;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  height: 100%;
+  box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  background-color: #F6F6F6;
+}
+
+.container{
+  width: 87%;
+  background-color: peru;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar{
+  height: 5%;
+  background-color: peachpuff;
+}
+
+.contents{
+  height: 95%;
+  background-color: palegoldenrod;
+}
+
+.logo{
+  display: block;
+}
+
+.routes{
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.nav{
+  list-style-type: none;
+}

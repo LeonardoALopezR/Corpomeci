@@ -6,6 +6,7 @@ import { Provider } from "react-redux";
 import store from "./store/store";
 
 //components
+import Dashboard from "./components/pages/Dashboard";
 import Login from "./components/pages/Login";
 import Navbar from "./components/layout/Navbar";
 
@@ -15,9 +16,9 @@ function App() {
     <Provider store={store}>
     <div className="App">
     <Router>
-          <Navbar />
           <Switch>
             <Route exact path="/login" component={Login} />
+            <Route exact path="/dashboard" component={Dashboard} />
           </Switch>
         </Router>
     </div>
